@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ═══ PRIMARY SEO ═══ -->
+<title>Japan Elopement Wedding Photographer & Packages | Shikoku · Kyoto · Setouchi | Japan Serenity</title>
+<meta name="description" content="Japan Serenity offers full-service elopement wedding photography and videography packages in Shikoku, Kyoto and Setouchi. English-speaking team based in Japan. Kimono portraits, legal marriage coordination, hair & makeup included. Inquire today.">
+<meta name="keywords" content="japan elopement wedding photographer, kyoto elopement photographer, shikoku elopement wedding, setouchi wedding photographer, japan wedding packages, kimono photoshoot japan, destination wedding japan, japan wedding planner english speaking, elopement photographer japan, japan pre-wedding shoot">
+<link rel="canonical" href="https://japanserenity.com/">
+
+<!-- ═══ OPEN GRAPH (Facebook / LINE / SNS) ═══ -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://japanserenity.com/">
+<meta property="og:title" content="Japan Elopement Wedding Photographer & Packages | Japan Serenity">
+<meta property="og:description" content="Full-service elopement photography & videography in Shikoku, Kyoto and Setouchi. English-speaking team based in Japan. Kimono, legal marriage & planning all included.">
+<meta property="og:image" content="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-elopement-wedding-photographer-hero.webp">
+<meta property="og:image:width" content="768">
+<meta property="og:image:height" content="1152">
+<meta property="og:image:alt" content="Japan elopement wedding photography by Japan Serenity — Shikoku, Kyoto, Setouchi">
+<meta property="og:site_name" content="Japan Serenity Weddings">
+<meta property="og:locale" content="en_US">
+
+<!-- ═══ TWITTER CARD ═══ -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Japan Elopement Wedding Photographer & Packages | Japan Serenity">
+<meta name="twitter:description" content="Full-service elopement photography & videography in Shikoku, Kyoto and Setouchi. English-speaking team in Japan.">
+<meta name="twitter:image" content="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-elopement-wedding-photographer-hero.webp">
+
+<!-- ═══ ROBOTS & INDEXING ═══ -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Japan Serenity Weddings">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+
+<!-- 共通CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+/* ── このページ専用スタイル ── */
+
+/* HERO */
+.hero {
+  display: grid; grid-template-columns: 1fr 1fr;
+  min-height: 78vh; overflow: hidden;
+}
+.hero-photo { position: relative; overflow: hidden; }
+.hero-photo img {
+  width: 100%; height: 100%; object-fit: cover;
+  transform: scale(1.06); animation: zoomIn 12s ease-out forwards;
+}
+.hero-photo::before {
+  content: ''; position: absolute; top: 0; bottom: 0; right: 0;
+  width: 5px; background: var(--vermillion); z-index: 2;
+}
+.hero-copy {
+  background: var(--white);
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 5rem 4.5rem; position: relative; overflow: hidden;
+}
+.hero-copy::after {
+  content: '縁'; position: absolute; right: -2rem; bottom: -4rem;
+  font-family: 'Noto Serif JP', serif; font-size: 22rem; font-weight: 300;
+  color: var(--vermillion); opacity: 0.04; pointer-events: none; line-height: 1;
+}
+.hero-kamon { width: 46px; height: 46px; margin-bottom: 2rem; opacity: 0; animation: up 0.8s 0.2s ease forwards; }
+.hero-loc {
+  font-family: 'Noto Serif JP', serif; font-size: 0.63rem; letter-spacing: 0.3em;
+  color: var(--vermillion); display: flex; align-items: center; gap: 0.8rem;
+  margin-bottom: 1.4rem; opacity: 0; animation: up 0.9s 0.35s ease forwards;
+  position: relative; z-index: 1;
+}
+.hero-loc::before { content: ''; display: block; width: 20px; height: 1px; background: var(--vermillion); }
+.hero-h1 {
+  font-family: 'Cormorant Garamond', serif; font-weight: 300;
+  font-size: clamp(2.5rem, 3.4vw, 4rem); line-height: 1.08;
+  color: var(--ink); text-transform: none !important; letter-spacing: -0.01em;
+  opacity: 0; animation: up 1s 0.5s ease forwards; position: relative; z-index: 1;
+}
+.hero-h1 em { font-style: italic; color: var(--vermillion); }
+.hero-jp {
+  font-family: 'Noto Serif JP', serif; font-weight: 300; font-size: 1rem;
+  letter-spacing: 0.14em; color: var(--bark); margin-top: 0.5rem;
+  opacity: 0; animation: up 1s 0.7s ease forwards; position: relative; z-index: 1;
+}
+.hero-body {
+  font-size: 0.86rem; line-height: 1.95; color: var(--bark);
+  max-width: 360px; margin-top: 1.6rem;
+  opacity: 0; animation: up 1s 0.9s ease forwards; position: relative; z-index: 1;
+}
+.hero-btns {
+  display: flex; gap: 1rem; margin-top: 2.4rem; flex-wrap: wrap;
+  opacity: 0; animation: up 1s 1.1s ease forwards; position: relative; z-index: 1;
+}
+
+/* STATS */
+.stats {
+  background: var(--vermillion); padding: 2.6rem 4rem;
+  display: flex; justify-content: center; gap: 5rem; flex-wrap: wrap;
+}
+.stat {
+  text-align: center; opacity: 0; transform: translateY(10px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.stat.visible { opacity: 1; transform: translateY(0); }
+.stat:nth-child(2) { transition-delay: 0.1s; }
+.stat:nth-child(3) { transition-delay: 0.2s; }
+.stat:nth-child(4) { transition-delay: 0.3s; }
+.stat .n { font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 300; color: var(--white); display: block; line-height: 1; }
+.stat .l { font-size: 0.6rem; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(255,255,255,0.68); margin-top: 0.3rem; display: block; }
+
+/* INTRO */
+.intro { background: var(--washi); padding: 7rem 4rem; position: relative; overflow: hidden; }
+.intro-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 7rem; align-items: center; }
+.intro-text p { font-size: 0.87rem; line-height: 2; color: var(--bark); margin-bottom: 1.1rem; margin-top: 1.6rem; }
+.intro-imgs { position: relative; height: 520px; }
+.intro-imgs .img-a { width: 100%; height: 100%; object-fit: cover; object-position: center; box-shadow: 7px 7px 0 var(--vermillion); display: block; }
+
+/* PACKAGES */
+.packages { background: var(--white); padding: 7rem 4rem; position: relative; overflow: hidden; }
+.packages::before { content: '婚'; position: absolute; right: 2.5rem; top: 2rem; font-family: 'Noto Serif JP', serif; font-size: 18rem; font-weight: 300; color: var(--vermillion); opacity: 0.03; pointer-events: none; line-height: 1; }
+.packages-inner { max-width: 1200px; margin: 0 auto; }
+.packages-head { text-align: center; margin-bottom: 4.5rem; }
+.pkg-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.pkg-card { background: var(--washi); border-top: 3px solid var(--vermillion); overflow: hidden; opacity: 0; transform: translateY(22px); transition: opacity 0.7s ease, transform 0.7s ease, box-shadow 0.3s; }
+.pkg-card.visible { opacity: 1; transform: translateY(0); }
+.pkg-card:nth-child(2) { transition-delay: 0.15s; }
+.pkg-card:nth-child(3) { transition-delay: 0.3s; }
+.pkg-card:hover { box-shadow: 0 14px 40px rgba(192,57,43,0.13); }
+.pkg-img { width: 100%; aspect-ratio: 3/4; object-fit: cover; transition: transform 0.6s ease; }
+.pkg-card:hover .pkg-img { transform: scale(1.03); }
+.pkg-body { padding: 1.8rem 1.7rem 2.2rem; }
+.pkg-tag { font-family: 'Noto Serif JP', serif; font-size: 0.58rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--vermillion); margin-bottom: 0.45rem; }
+.pkg-title { font-family: 'Cormorant Garamond', serif; font-size: 1.55rem; font-weight: 400; color: var(--ink); text-transform: none !important; margin-bottom: 0.25rem; }
+.pkg-jp { font-family: 'Noto Serif JP', serif; font-size: 0.72rem; letter-spacing: 0.14em; color: var(--bark); margin-bottom: 0.9rem; }
+.pkg-desc { font-size: 0.79rem; line-height: 1.85; color: var(--bark); margin-bottom: 1.4rem; }
+
+/* ELOPEMENT */
+.elope { background: var(--blush); padding: 7rem 4rem; position: relative; overflow: hidden; }
+.elope-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+.elope-img { position: relative; }
+.elope-img img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+.elope-img::after { content: ''; position: absolute; bottom: -1rem; right: -1rem; width: 65%; height: 65%; border: 2px solid var(--vermillion); z-index: -1; }
+.elope-text p { font-size: 0.86rem; line-height: 2; color: var(--bark); margin: 1.5rem 0; }
+.elope-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin: 2rem 0 2.4rem; border-top: 1px solid rgba(192,57,43,0.18); }
+.elope-list li { list-style: none; font-size: 0.76rem; color: var(--bark); padding: 0.5rem 0; border-bottom: 1px solid rgba(192,57,43,0.1); display: flex; align-items: center; gap: 0.6rem; }
+.elope-list li::before { content: ''; width: 5px; height: 1px; background: var(--vermillion); flex-shrink: 0; }
+
+/* LOCATIONS */
+.locs { background: var(--washi); padding: 7rem 4rem; }
+.locs-inner { max-width: 1200px; margin: 0 auto; }
+.locs-head { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3rem; flex-wrap: wrap; gap: 1.5rem; }
+.loc-card:hover 
+/* TESTIMONIALS */
+.testis { background: var(--blush); padding: 7rem 4rem; position: relative; overflow: hidden; }
+.testis::before { content: '愛'; position: absolute; right: -2rem; top: -4rem; font-family: 'Noto Serif JP', serif; font-size: 22rem; font-weight: 300; color: var(--vermillion); opacity: 0.06; pointer-events: none; line-height: 1; }
+.testis-inner { max-width: 1200px; margin: 0 auto; }
+.testis-head { text-align: center; margin-bottom: 4rem; }
+.testi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.8rem; }
+.tcard { background: var(--white); padding: 2.6rem; border-left: 3px solid var(--vermillion); position: relative; opacity: 0; transform: translateY(14px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.tcard.visible { opacity: 1; transform: translateY(0); }
+.tcard:nth-child(2) { transition-delay: 0.12s; }
+.tcard:nth-child(3) { transition-delay: 0.24s; }
+.tcard:nth-child(4) { transition-delay: 0.36s; }
+.tcard::before { content: '\275D'; font-family: 'Cormorant Garamond', serif; font-size: 4.5rem; color: var(--vermillion); opacity: 0.1; position: absolute; top: 0.8rem; left: 1.4rem; line-height: 1; }
+.tcard-stars { color: var(--gold); font-size: 0.72rem; letter-spacing: 0.1em; margin-bottom: 0.9rem; }
+.tcard-text { font-size: 0.83rem; line-height: 1.95; color: var(--sumi); margin-bottom: 1.6rem; position: relative; z-index: 1; }
+.tcard-auth { display: flex; align-items: center; gap: 1rem; }
+.tcard-photo { width: 48px; height: 48px; object-fit: cover; border: 2px solid var(--vermillion); }
+.tcard-name { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--ink); text-transform: none !important; }
+.tcard-pkg { font-size: 0.61rem; letter-spacing: 0.14em; color: var(--bark); margin-top: 0.1rem; }
+
+/* RESPONSIVE — index専用 */
+@media (max-width: 1024px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-photo { height: 55vw; min-height: 300px; }
+  .hero-copy { padding: 3.5rem 2.5rem 4rem; }
+  .intro-grid { grid-template-columns: 1fr; gap: 3.5rem; }
+  .intro-imgs { height: 340px; }
+  .pkg-grid { grid-template-columns: 1fr 1fr; }
+  .elope-grid { grid-template-columns: 1fr; gap: 3.5rem; }
+      .testi-grid { grid-template-columns: 1fr; }
+}
+
+/* ── iPad (768px〜1024px) ── */
+@media (max-width: 1024px) and (min-width: 681px) {
+  .hero-h1 { font-size: clamp(2rem, 4vw, 3rem); }
+  .pkg-grid { grid-template-columns: 1fr 1fr; gap: 1.4rem; }
+  .stats { gap: 3rem; padding: 2.4rem 2rem; }
+  .intro, .packages, .elope, .locs, .testis { padding: 5rem 2.5rem; }
+  .intro-imgs .img-a { height: 300px; }
+    .testi-grid { grid-template-columns: 1fr; }
+}
+
+/* ── iPhone (〜680px) ── */
+@media (max-width: 680px) {
+  .hero { grid-template-columns: 1fr; min-height: auto; }
+  .hero-photo { height: 62vw; min-height: 260px; }
+  .hero-copy { padding: 2.4rem 1.4rem 5rem; }
+  .hero-h1 { font-size: clamp(1.8rem, 7.5vw, 2.6rem); line-height: 1.1; }
+  .hero-jp { font-size: 0.82rem; }
+  .hero-body { font-size: 0.82rem; max-width: 100%; }
+  .hero-btns { flex-direction: column; gap: 0.8rem; }
+  .hero-btns a { text-align: center; }
+  .stats { gap: 1.8rem; padding: 2rem 1.2rem; flex-wrap: wrap; }
+  .stat .n { font-size: 2.2rem; }
+  .stat .l { font-size: 0.56rem; }
+  .intro, .packages, .elope, .locs, .testis { padding: 4rem 1.2rem; }
+  .intro-grid { gap: 2.4rem; }
+  .intro-imgs { height: 220px; }
+  .intro-imgs .img-a { width: 80%; height: 220px; }
+  .pkg-grid { grid-template-columns: 1fr; gap: 1.4rem; }
+  .pkg-body { padding: 1.4rem 1.2rem 1.8rem; }
+  .elope-grid { gap: 2.4rem; }
+      .testi-grid { grid-template-columns: 1fr; gap: 1.2rem; }
+  .tcard { padding: 1.8rem 1.4rem; }
+  .tcard-text { font-size: 0.8rem; }
+}
+
+/* ── iPhone SE / 小型 (〜380px) ── */
+@media (max-width: 380px) {
+  .hero-photo { height: 70vw; }
+  .hero-h1 { font-size: 1.6rem; }
+  .stats { gap: 1.2rem; }
+}
+
+/* GET IN TOUCH */
+.git { background: var(--washi-dark); padding: 7rem 4rem; position: relative; overflow: hidden; }
+.git-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.4fr; gap: 6rem; align-items: start; }
+.git-body { font-size: 0.86rem; line-height: 2; color: var(--bark); margin-top: 1.4rem; }
+.git-details { margin-top: 2.4rem; padding-top: 2.4rem; border-top: 1px solid rgba(192,57,43,0.15); display: flex; flex-direction: column; gap: 1.2rem; }
+.git-row { display: flex; align-items: flex-start; gap: 1rem; }
+.git-icon { width: 34px; height: 34px; flex-shrink: 0; border: 1px solid rgba(192,57,43,0.2); display: flex; align-items: center; justify-content: center; color: var(--vermillion); }
+.git-label { font-family: 'Noto Serif JP', serif; font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--vermillion); display: block; margin-bottom: 0.2rem; }
+.git-value { font-size: 0.84rem; color: var(--ink); line-height: 1.6; display: block; }
+.git-value a { color: var(--ink); transition: color 0.25s; }
+.git-value a:hover { color: var(--vermillion); }
+.git-badges { margin-top: 2rem; display: flex; flex-direction: column; gap: 0.7rem; }
+.git-badge { display: flex; align-items: center; gap: 0.8rem; font-size: 0.78rem; color: var(--bark); }
+.git-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--vermillion); flex-shrink: 0; }
+@media (max-width: 1024px) { .git-inner { grid-template-columns: 1fr; gap: 3.5rem; } }
+@media (max-width: 680px) { .git { padding: 4.5rem 1.5rem; } }
+
+</style>
+</head>
+<body>
+
+<!-- モバイルメニュー -->
+<div class="mob-menu" id="mobMenu">
+  <button class="mob-close" id="mobClose">×</button>
+  <a href="./index.html">Home</a>
+  <a href="./about.html">About</a>
+  <a href="./portfolio.html">Portfolio</a>
+  <a href="./contact.html">Contact</a>
+</div>
+
+<!-- FLOATING INQUIRE BAR -->
+<div class="inquire-bar" id="inquireBar">
+  <span class="inquire-bar-text">Ready to plan your Japan elopement?</span>
+  <a href="./contact.html" class="inquire-bar-btn">Start Planning</a>
+  <button class="inquire-bar-close" id="inquireClose" aria-label="Close">×</button>
+</div>
+
+<!-- BACK TO TOP -->
+<button id="toTop" aria-label="Back to top">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+</button>
+
+<!-- ナビ -->
+<nav>
+  <a href="./index.html" class="nav-logo">
+    <img src="assets/images/logo.png" alt="Japan Serenity" onerror="this.style.display='none'">
+    <span>Japan Serenity</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="./index.html" class="active">Home</a></li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./portfolio.html">Portfolio</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+  </ul>
+  <a href="./contact.html" class="nav-cta">Inquire Now</a>
+  <button class="nav-ham" id="navHam">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="margin-top:64px;">
+  <div class="hero-photo">
+    <img src="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-elopement-wedding-photographer-hero.webp" alt="Kyoto and Shikoku Japan elopement wedding photography — Japan Serenity Weddings" loading="eager" width="1200" height="800">
+  </div>
+  <div class="hero-copy">
+    <svg class="hero-kamon" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="23" cy="23" r="21" stroke="#C0392B" stroke-width="1"/>
+      <circle cx="23" cy="23" r="16" stroke="#C0392B" stroke-width="0.6"/>
+      <path d="M23 6 L25.5 18 L23 21 L20.5 18 Z" fill="#C0392B" opacity="0.65"/>
+      <path d="M23 40 L25.5 28 L23 25 L20.5 28 Z" fill="#C0392B" opacity="0.65"/>
+      <path d="M6 23 L18 25.5 L21 23 L18 20.5 Z" fill="#C0392B" opacity="0.65"/>
+      <path d="M40 23 L28 25.5 L25 23 L28 20.5 Z" fill="#C0392B" opacity="0.65"/>
+      <circle cx="23" cy="23" r="3.5" fill="#C0392B" opacity="0.3"/>
+    </svg>
+    <p class="hero-loc">Shikoku &nbsp;·&nbsp; Kyoto &nbsp;·&nbsp; Setouchi &nbsp;·&nbsp; Tokyo</p>
+    <h1 class="hero-h1">Japan Elopement<br><em>Photographer & Planner</em></h1>
+    <p class="hero-jp">日本でのウェディング撮影・エロープメント</p>
+    <p class="hero-body">Intimate elopement photography, videography and full wedding planning in Shikoku, Kyoto and Setouchi. English-speaking team based in Japan — kimono, legal marriage coordination and hair & makeup all included.</p>
+    <div class="hero-btns">
+      <a href="./contact.html" class="btn-red">View Packages</a>
+      <a href="./portfolio.html" class="btn-ghost">See Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat"><span class="n">8+</span><span class="l">Years Experience</span></div>
+  <div class="stat"><span class="n">3</span><span class="l">Locations</span></div>
+  <div class="stat"><span class="n">5</span><span class="l">Team Members</span></div>
+  <div class="stat"><span class="n">∞</span><span class="l">Lifelong Memories</span></div>
+</div>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="wave-bg"></div>
+  <div class="intro-grid">
+    <div class="intro-text reveal">
+      <p class="slabel">Our Mission</p>
+      <h2 class="stitle">Japan Elopement &amp; Wedding Photography<br><em>by a Local Team</em></h2>
+      <p class="sjp">日本在住チームによるウェディング撮影</p>
+      <div class="divider"><span>✦</span></div>
+      <p>We are a <strong>Shikoku-based elopement photography team</strong> offering full-service packages for couples travelling to Japan. From the lantern-lit streets of <a href="./contact.html" style="color:var(--vermillion);">Kyoto</a> to the quiet coastlines of <a href="./contact.html" style="color:var(--vermillion);">Setouchi</a> and the hidden valleys of Shikoku, we find the settings that make your story unforgettable.</p>
+      <p>Our <strong>Japan elopement packages</strong> are designed for international couples who want something intimate, culturally rich and effortlessly organised. We handle every detail — kimono styling, legal marriage coordination, hair & makeup, venues — so you simply arrive and be present with each other.</p>
+      <a href="./contact.html" class="btn-red" style="margin-top:1.5rem;">Inquire Now</a>
+    </div>
+    <div class="intro-imgs reveal" style="transition-delay:0.15s;">
+      <img class="img-a" src="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-elopement-wedding-kimono-01.webp" alt="Kyoto and Shikoku Japan elopement wedding photography — bridal kimono by Japan Serenity" loading="lazy" width="768" height="1152">
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="packages">
+  <div class="packages-inner">
+    <div class="packages-head reveal">
+      <p class="slabel center">Our Services</p>
+      <h2 class="stitle" style="text-align:center;">Japan Elopement <em>Packages</em></h2>
+      <p class="sjp" style="text-align:center;">日本でのウェディング撮影パッケージ</p>
+    </div>
+    <div class="pkg-grid">
+      <div class="pkg-card">
+        <img class="pkg-img" src="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-elopement-wedding-package-photographer-01.webp" alt="Full-service elopement wedding package in Kyoto and Shikoku Japan — planning, photography and kimono by Japan Serenity" loading="lazy" width="768" height="1152">
+        <div class="pkg-body">
+          <p class="pkg-tag">Full Service</p>
+          <h3 class="pkg-title">Elopement Package</h3>
+          <p class="pkg-jp">エロープメント — Kyoto · Shikoku · Setouchi</p>
+          <p class="pkg-desc">Your complete Japan elopement — ceremony, photography, kimono styling, hair & makeup, legal coordination and planning. You arrive, we handle everything.</p>
+          <a href="./contact.html" class="btn-ghost">Inquire</a>
+        </div>
+      </div>
+      <div class="pkg-card">
+        <img class="pkg-img" src="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-kimono-experience-wedding-photographer-01.webp" alt="Japanese kimono and yukata experience — bridal kimono photography in Kyoto and Shikoku by Japan Serenity" loading="lazy" width="768" height="1152">
+        <div class="pkg-body">
+          <p class="pkg-tag">Kimono · Yukata</p>
+          <h3 class="pkg-title">Kimono Experience</h3>
+          <p class="pkg-jp">着物体験 — Kyoto · Shikoku · Setouchi</p>
+          <p class="pkg-desc">Wear an authentic Japanese kimono or yukata and create timeless portraits across Kyoto, Shikoku and Setouchi. Our Japanese team brings unmatched expertise in kimono styling.</p>
+          <a href="./contact.html" class="btn-ghost">Inquire</a>
+        </div>
+      </div>
+      <div class="pkg-card">
+        <img class="pkg-img" src="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-proposal-photographer-01.webp" alt="Surprise proposal photography in Kyoto and Shikoku Japan — Japan Serenity Weddings" loading="lazy" width="768" height="1152">
+        <div class="pkg-body">
+          <p class="pkg-tag">Proposal</p>
+          <h3 class="pkg-title">Proposal Package</h3>
+          <p class="pkg-jp">プロポーザル — Kyoto · Shikoku · Setouchi</p>
+          <p class="pkg-desc">A perfectly planned proposal in Japan's most beautiful settings. We coordinate every detail in secret so you can focus entirely on the moment.</p>
+          <a href="./contact.html" class="btn-ghost">Inquire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ELOPEMENT -->
+<section class="elope">
+  <div class="wave-bg"></div>
+  <div class="elope-grid">
+    <div class="elope-img reveal">
+      <img src="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-elopement-full-package-photographer-01.webp" alt="Full-service Japan elopement package including photography, planning, kimono and hair makeup — Japan Serenity Shikoku and Kyoto" loading="lazy">
+    </div>
+    <div class="elope-text reveal" style="transition-delay:0.15s;">
+      <p class="slabel">Full-Service</p>
+      <h2 class="stitle">Full-Service Japan<br><em>Elopement Package</em></h2>
+      <p class="sjp">日本エロープメント・フルパッケージ — Shikoku · Kyoto · Setouchi</p>
+      <p>Our complete <strong>Japan elopement package</strong> covers every detail — from planning and legal marriage coordination to photography, videography and hair & makeup. Available across <a href="./contact.html" style="color:var(--vermillion);">Shikoku</a>, <a href="./contact.html" style="color:var(--vermillion);">Kyoto</a> and <a href="./contact.html" style="color:var(--vermillion);">Setouchi</a>. You arrive in Japan. Everything is ready.</p>
+      <ul class="elope-list">
+        <li>Elopement planning</li><li>Hair and makeup</li>
+        <li>On-site coordinator</li><li>Travel costs included</li>
+        <li>Marriage celebrant</li><li>Wedding venue</li>
+        <li>4 hours photography</li><li>Full photo delivery</li>
+      </ul>
+      <a href="./contact.html" class="btn-red">Inquire About This Package</a>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATIONS -->
+<section class="locs">
+  <div class="locs-inner">
+    <div class="locs-head">
+      <div class="reveal">
+        <p class="slabel">Where We Shoot</p>
+        <h2 class="stitle">Elopement Locations<br><em>Across Japan</em></h2>
+        <p class="sjp">四国・京都・瀬戸内・東京 — ロケーション撮影</p>
+      </div>
+      <a href="./portfolio.html" class="btn-red reveal">View Portfolio</a>
+    </div>
+    <div class="locs-photo reveal">
+      <img src="https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-elopement-wedding-location-01.webp" alt="Elopement wedding photography locations across Japan — Kyoto, Shikoku and Setouchi by Japan Serenity" loading="lazy" width="1200" height="800">
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testis">
+  <div class="testis-inner">
+    <div class="testis-head reveal">
+      <p class="slabel center">What Couples Say</p>
+      <h2 class="stitle" style="text-align:center;">Real Couples,<br><em>Real Japan Elopements</em></h2>
+      <p class="sjp" style="text-align:center;">お客様の声 — Shikoku · Kyoto · Setouchi</p>
+    </div>
+    <div class="testi-grid">
+      <div class="tcard">
+        <p class="tcard-stars">★★★★★</p>
+        <p class="tcard-text">For anyone looking to make the most of their special day in a traditional Japanese way, look no further. Shikoku is a hidden gem you wouldn't want to miss. The photographers and videographer are truly professional and everything was captured perfectly.</p>
+        <div class="tcard-auth">
+          <img class="tcard-photo" src="https://chebiphoto.github.io/jsw/julita-jordan-shikoku-japan-elopement-japan-serenity.webp" alt="Julita and Jordan, Shikoku Japan elopement — Japan Serenity Weddings" loading="lazy">
+          <div><p class="tcard-name">Julita &amp; Jordan</p><p class="tcard-pkg">Shikoku Kimono Experience</p></div>
+        </div>
+      </div>
+      <div class="tcard">
+        <p class="tcard-stars">★★★★★</p>
+        <p class="tcard-text">Japan Serenity Weddings crafted such an amazing day for me and my fiancé. They organised everything from clothes, makeup, hair, shooting locations and food. It was almost like we were all friends by the end of the day!</p>
+        <div class="tcard-auth">
+          <img class="tcard-photo" src="https://chebiphoto.github.io/jsw/dacotah-keito-japan-elopement-japan-serenity.webp" alt="Dacotah and Keito, Japan elopement — Japan Serenity Weddings" loading="lazy">
+          <div><p class="tcard-name">Dacotah &amp; Keito</p><p class="tcard-pkg">Japan Elopement Package</p></div>
+        </div>
+      </div>
+      <div class="tcard">
+        <p class="tcard-stars">★★★★★</p>
+        <p class="tcard-text">10/10 would recommend! Even though I don't speak Japanese very well, everyone was so sweet and accommodating. Communication was never an issue. I felt like a princess!</p>
+        <div class="tcard-auth">
+          <img class="tcard-photo" src="https://chebiphoto.github.io/jsw/sydney-kyoto-japan-elopement-japan-serenity.webp" alt="Sydney, Shikoku elopement — Japan Serenity Weddings" loading="lazy">
+          <div><p class="tcard-name">Sydney</p><p class="tcard-pkg">Shikoku Elopement</p></div>
+        </div>
+      </div>
+      <div class="tcard">
+        <p class="tcard-stars">★★★★★</p>
+        <p class="tcard-text">最初はとても緊張していましたが、みなさんとてもフレンドリーですぐに緊張がほぐれました。ヘアメイクもカメラマンさんもみなさんプロフェッショナルで素敵な思い出を残すことができました。</p>
+        <div class="tcard-auth">
+          <img class="tcard-photo" src="https://chebiphoto.github.io/jsw/misato-japan-elopement-japan-serenity.webp" alt="Misato, Japan elopement — Japan Serenity Weddings" loading="lazy">
+          <div><p class="tcard-name">Misato</p><p class="tcard-pkg">Japan Elopement</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="background:var(--washi-dark); padding:7rem 4rem;">
+  <div style="max-width:820px; margin:0 auto;">
+    <div style="text-align:center; margin-bottom:4rem;" class="reveal">
+      <p class="slabel center">Common Questions</p>
+      <h2 class="stitle" style="text-align:center;">Japan Elopement <em>FAQ</em></h2>
+      <p class="sjp" style="text-align:center;">よくあるご質問 — Japan Serenity Weddings</p>
+    </div>
+    <div class="faq-list" style="display:flex; flex-direction:column;">
+      <div class="faq-item" style="border-bottom:1px solid rgba(192,57,43,0.18);">
+        <button class="faq-q" style="width:100%;background:none;border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:1.6rem 0;text-align:left;gap:1rem;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:400;color:var(--ink);">Which locations in Japan do you cover?</span>
+          <span class="faq-icon" style="width:22px;height:22px;border:1px solid var(--vermillion);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--vermillion);font-size:1rem;transition:transform 0.3s;">+</span>
+        </button>
+        <div class="faq-a" style="overflow:hidden;max-height:0;transition:max-height 0.4s ease;">
+          <p style="font-size:0.85rem;line-height:1.95;color:var(--bark);padding-bottom:1.6rem;">We are based in <strong>Shikoku (Kagawa Prefecture)</strong> and regularly shoot in <strong>Kyoto</strong>, <strong>Setouchi</strong> and <strong>Tokyo</strong>. Each location offers something distinct — from Kyoto's ancient temple gardens to the quiet coastal light of Setouchi. Travel to other locations in Japan can be arranged on request.</p>
+        </div>
+      </div>
+      <div class="faq-item" style="border-bottom:1px solid rgba(192,57,43,0.18);">
+        <button class="faq-q" style="width:100%;background:none;border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:1.6rem 0;text-align:left;gap:1rem;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:400;color:var(--ink);">Do you speak English?</span>
+          <span class="faq-icon" style="width:22px;height:22px;border:1px solid var(--vermillion);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--vermillion);font-size:1rem;transition:transform 0.3s;">+</span>
+        </button>
+        <div class="faq-a" style="overflow:hidden;max-height:0;transition:max-height 0.4s ease;">
+          <p style="font-size:0.85rem;line-height:1.95;color:var(--bark);padding-bottom:1.6rem;">Yes. Our team communicates fluently in both <strong>English and Japanese</strong>. From your first inquiry through to your final gallery delivery, every interaction is in English. We handle all venue and vendor communication in Japanese on your behalf.</p>
+        </div>
+      </div>
+      <div class="faq-item" style="border-bottom:1px solid rgba(192,57,43,0.18);">
+        <button class="faq-q" style="width:100%;background:none;border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:1.6rem 0;text-align:left;gap:1rem;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:400;color:var(--ink);">What is included in a Japan elopement package?</span>
+          <span class="faq-icon" style="width:22px;height:22px;border:1px solid var(--vermillion);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--vermillion);font-size:1rem;transition:transform 0.3s;">+</span>
+        </button>
+        <div class="faq-a" style="overflow:hidden;max-height:0;transition:max-height 0.4s ease;">
+          <p style="font-size:0.85rem;line-height:1.95;color:var(--bark);padding-bottom:1.6rem;">Our full-service <strong>Japan elopement packages</strong> include: dedicated local planner, wedding photography, videography, ceremony officiant, hair and makeup, kimono or dress styling, venue sourcing, and legal marriage coordination. Photography-only and pre-wedding shoot packages are also available. <a href="./contact.html" style="color:var(--vermillion);">Contact us</a> for a custom quote.</p>
+        </div>
+      </div>
+      <div class="faq-item" style="border-bottom:1px solid rgba(192,57,43,0.18);">
+        <button class="faq-q" style="width:100%;background:none;border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:1.6rem 0;text-align:left;gap:1rem;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:400;color:var(--ink);">Can foreigners legally marry in Japan?</span>
+          <span class="faq-icon" style="width:22px;height:22px;border:1px solid var(--vermillion);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--vermillion);font-size:1rem;transition:transform 0.3s;">+</span>
+        </button>
+        <div class="faq-a" style="overflow:hidden;max-height:0;transition:max-height 0.4s ease;">
+          <p style="font-size:0.85rem;line-height:1.95;color:var(--bark);padding-bottom:1.6rem;">Yes. Foreigners can legally marry in Japan. The process requires documentation from your home country's embassy and submission at the local municipal office. We provide full guidance and coordination throughout the process, so you don't need to navigate Japanese bureaucracy alone.</p>
+        </div>
+      </div>
+      <div class="faq-item" style="border-bottom:1px solid rgba(192,57,43,0.18);">
+        <button class="faq-q" style="width:100%;background:none;border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:1.6rem 0;text-align:left;gap:1rem;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:400;color:var(--ink);">What is the best time of year for a Japan elopement?</span>
+          <span class="faq-icon" style="width:22px;height:22px;border:1px solid var(--vermillion);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--vermillion);font-size:1rem;transition:transform 0.3s;">+</span>
+        </button>
+        <div class="faq-a" style="overflow:hidden;max-height:0;transition:max-height 0.4s ease;">
+          <p style="font-size:0.85rem;line-height:1.95;color:var(--bark);padding-bottom:1.6rem;">Japan is beautiful year-round. <strong>Cherry blossom season (late March–April)</strong> is the most sought-after for Kyoto. <strong>Autumn (November–December)</strong> brings stunning foliage across Shikoku and Kyoto. <strong>Spring and autumn</strong> are ideal for Setouchi's soft coastal light. We recommend booking at least 3–6 months in advance for popular seasons.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GET IN TOUCH -->
+<section class="git">
+  <div class="wave-bg"></div>
+  <div class="git-inner">
+    <div class="git-left reveal">
+      <p class="slabel">Get in Touch</p>
+      <h2 class="stitle">Ready to Elope in <em>Japan?</em></h2>
+      <p class="sjp">日本でのエロープメント・ウェディングのご相談</p>
+      <p class="git-body">Send us a message about your ideal package and date. Our English-speaking Japan-based team responds within 2–3 business days.</p>
+
+      <div class="git-details">
+        <div class="git-row">
+          <div class="git-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <span class="git-label">Email</span>
+            <span class="git-value"><a href="mailto:weddings@japanserenity.com">weddings@japanserenity.com</a></span>
+          </div>
+        </div>
+        <div class="git-row">
+          <div class="git-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.08 1.18 2 2 0 012.05 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div>
+            <span class="git-label">Phone / WhatsApp</span>
+            <span class="git-value"><a href="tel:+819057174287">090-5717-4287</a></span>
+          </div>
+        </div>
+        <div class="git-row">
+          <div class="git-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <span class="git-label">Response Time</span>
+            <span class="git-value">Within 2–3 business days</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="git-badges">
+        <div class="git-badge"><span class="git-dot"></span>No commitment required</div>
+        <div class="git-badge"><span class="git-dot"></span>English &amp; Japanese spoken</div>
+        <div class="git-badge"><span class="git-dot"></span>Based in Shikoku, Japan</div>
+      </div>
+    </div>
+
+    <div class="git-right reveal" style="transition-delay:0.15s;">
+      <iframe height="778"
+              style="min-width:100%;max-width:1180px;border:0;"
+              id="sn-form-czpjm"
+              src="https://app.studioninja.co/contactform/parser/0a800fc8-948e-1672-8194-95ae95212b3c/0a800fc8-948e-1672-8194-95ae95332b3e"
+              allowfullscreen>
+      </iframe>
+      <script type="text/javascript"
+              data-iframe-id="sn-form-czpjm"
+              src="https://app.studioninja.co/client-assets/form-render/assets/scripts/iframeResizer.js">
+      </script>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="f-brand">Japan Serenity Weddings &nbsp;·&nbsp; Shikoku · Kyoto · Setouchi, Japan</span>
+  <ul class="f-links">
+    <li><a href="./privacy.html">Privacy Policy</a></li>
+    <li><a href="./legal.html">Specified Commercial Transactions</a></li>
+    <li><a href="./terms.html">Terms of Service</a></li>
+  </ul>
+  <span class="f-copy">© 2026 Japan Serenity Co., Ltd.</span>
+</footer>
+
+<!-- 共通JS -->
+<script src="assets/js/main.js"></script>
+
+<!-- ═══ SCHEMA.ORG 構造化データ ═══ -->
+
+<!-- 1. LocalBusiness + AggregateRating -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Japan Serenity Weddings",
+  "alternateName": "Japan Serenity Co., Ltd.",
+  "description": "Full-service elopement wedding photography, videography and planning for international couples in Shikoku, Kyoto, Setouchi and Tokyo. English-speaking team based in Japan.",
+  "url": "https://japanserenity.com/",
+  "email": "weddings@japanserenity.com",
+  "image": "https://chebiphoto.github.io/jsw/kyoto-shikoku-japan-elopement-wedding-photographer-hero.webp",
+  "logo": "https://japanserenity.com/wp-content/uploads/2025/04/アセット-2-83x83.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "綾歌町栗熊東432-1",
+    "addressLocality": "丸亀市",
+    "addressRegion": "香川県",
+    "postalCode": "763-0054",
+    "addressCountry": "JP"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.2833,
+    "longitude": 133.7833
+  },
+  "areaServed": ["Shikoku", "Kyoto", "Setouchi", "Tokyo"],
+  "serviceType": ["Elopement Wedding Photography", "Wedding Videography", "Wedding Planning", "Pre-Wedding Photography", "Kimono Photoshoot"],
+  "priceRange": "$$",
+  "currenciesAccepted": "JPY, USD",
+  "paymentAccepted": "Credit Card, Bank Transfer",
+  "openingHours": "Mo-Su 09:00-18:00",
+  "sameAs": [
+    "https://www.instagram.com/japan_serenity.weddings/",
+    "https://www.instagram.com/chebi_nagai/"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "4",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+
+<!-- 2. Service (3 packages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japan Elopement Wedding Packages",
+  "description": "Elopement photography and wedding packages in Shikoku, Kyoto and Setouchi Japan",
+  "url": "https://japanserenity.com/",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Service",
+        "name": "Yukata Package — Casual Kimono Photoshoot Japan",
+        "description": "Casual yukata photoshoot in Kyoto, Shikoku or Setouchi. A relaxed, joyful pre-wedding shoot with authentic Japanese local charm.",
+        "provider": { "@type": "LocalBusiness", "name": "Japan Serenity Weddings" },
+        "areaServed": ["Shikoku", "Kyoto", "Setouchi"],
+        "serviceType": "Pre-Wedding Photography"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "name": "Classic Package — Western Dress Elopement Japan",
+        "description": "Western dress elopement photography in Shikoku, Kyoto and Setouchi. Your gown against Japan's most scenic temple gardens and coastal backdrops.",
+        "provider": { "@type": "LocalBusiness", "name": "Japan Serenity Weddings" },
+        "areaServed": ["Shikoku", "Kyoto", "Setouchi"],
+        "serviceType": "Elopement Wedding Photography"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "name": "Kimono Package — Traditional Japanese Bridal Wedding",
+        "description": "Traditional Japanese bridal kimono wedding photography in Kyoto, Shikoku and Setouchi. Full planning, hair & makeup, and legal ceremony coordination included.",
+        "provider": { "@type": "LocalBusiness", "name": "Japan Serenity Weddings" },
+        "areaServed": ["Shikoku", "Kyoto", "Setouchi"],
+        "serviceType": "Elopement Wedding Photography"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- 3. FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which locations in Japan do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are based in Shikoku (Kagawa Prefecture) and regularly shoot in Kyoto, Setouchi and Tokyo. Travel to other locations in Japan can be arranged on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you speak English?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our team communicates fluently in both English and Japanese. Every client interaction is in English from first inquiry to final gallery delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in a Japan elopement package?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our full-service Japan elopement packages include: dedicated local planner, wedding photography, videography, ceremony officiant, hair and makeup, kimono styling, venue sourcing and legal marriage coordination."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can foreigners legally marry in Japan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Foreigners can legally marry in Japan. The process requires documentation from your home country's embassy and submission at the local municipal office. Japan Serenity provides full guidance and coordination throughout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time of year for a Japan elopement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cherry blossom season (late March–April) is most popular for Kyoto. Autumn (November–December) brings stunning foliage across Shikoku and Kyoto. Spring and autumn are ideal for Setouchi. We recommend booking at least 3–6 months in advance."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- 4. Person — Team Members -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japan Serenity Weddings Team",
+  "itemListElement": [
+    {
+      "@type": "ListItem", "position": 1,
+      "item": {
+        "@type": "Person",
+        "name": "Chebi (Ayuko Nagai)",
+        "jobTitle": "Director, Photographer & Videographer",
+        "worksFor": { "@type": "Organization", "name": "Japan Serenity Weddings" },
+        "image": "https://japanserenity.com/wp-content/uploads/2024/08/Chebi-1-212x300.png",
+        "description": "Director and lead photographer with 8+ years of experience in Japan. Fluent in English and Japanese."
+      }
+    },
+    {
+      "@type": "ListItem", "position": 2,
+      "item": {
+        "@type": "Person",
+        "name": "Yui",
+        "jobTitle": "Hair & Makeup Artist",
+        "worksFor": { "@type": "Organization", "name": "Japan Serenity Weddings" },
+        "image": "https://japanserenity.com/wp-content/uploads/2024/08/Yui-212x300.png"
+      }
+    },
+    {
+      "@type": "ListItem", "position": 3,
+      "item": {
+        "@type": "Person",
+        "name": "Misaki",
+        "jobTitle": "Photographer",
+        "worksFor": { "@type": "Organization", "name": "Japan Serenity Weddings" },
+        "image": "https://japanserenity.com/wp-content/uploads/2024/08/Misaki-212x300.png",
+        "description": "20 years of portrait photography experience across Japan."
+      }
+    },
+    {
+      "@type": "ListItem", "position": 4,
+      "item": {
+        "@type": "Person",
+        "name": "Hori",
+        "jobTitle": "Videographer",
+        "worksFor": { "@type": "Organization", "name": "Japan Serenity Weddings" },
+        "image": "https://japanserenity.com/wp-content/uploads/2024/08/Hori-212x300.png"
+      }
+    },
+    {
+      "@type": "ListItem", "position": 5,
+      "item": {
+        "@type": "Person",
+        "name": "Mayu",
+        "jobTitle": "Designer, Photographer & Videographer",
+        "worksFor": { "@type": "Organization", "name": "Japan Serenity Weddings" },
+        "image": "https://japanserenity.com/wp-content/uploads/2024/08/Mayucicle-212x300.png"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- 5. BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://japanserenity.com/"
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
